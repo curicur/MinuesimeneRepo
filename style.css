@@ -1,0 +1,103 @@
+html {
+  height: 100%;
+  width: 100%;
+  
+}
+.main{
+  width: 740px;
+  height: 1000px;
+  border: 2px solid black;
+  background-image: url("https://img.freepik.com/premium-vector/colored-blurred-background-with-abstract-light-blurred-color-gradient_625492-432.jpg");
+   background-size: cover;
+  background-attachment: fixed;
+
+}
+.container{
+  width: 300px;
+   height: 80px;
+  text-align: center;
+ 
+  
+}
+
+  
+}
+.navBar{
+   margin-left: 25px;
+  top: 80px;
+  
+}
+
+a{
+  color: rgba(7, 14, 155);
+  
+  font-size: 23px;
+  padding-left: 50px;
+   margin-left: 55px;
+  display: inline-block;
+}
+
+
+.nav-link:hover{
+  color: rgba(52, 202, 247);
+  font-size: 23px;
+  
+}
+
+.palka{
+  background-color: rgba(24, 32, 61);
+  width: 740px;
+  height: 4px;
+ 
+}
+
+
+
+.column {
+    float: left;
+    width: 25%;
+}
+
+ .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.content {
+    background-color: white;
+    padding: 10px;
+  width: 200px;
+  height: 80px;
+  border: 1px solid black;
+  margin-left: 150px;
+  margin-top: 70px;
+  border-radius: 5px;
+  line-height: 4px;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+.avatar {
+    vertical-align: middle;
+    width: 90px;
+    height: 95px;
+    border-radius: 50%;
+  border: 1px solid black;
+  margin-top: -150px;;
+}
+
+.down{
+   line-height: 5px;
+}
